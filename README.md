@@ -1,4 +1,12 @@
-Kotlin Hello World Demo
-=======================
+Kotlin Gradle Jvm Target Demo
+=============================
 
-Hello world from kotlin. Open it in IDE and run `Hello.kt`
+```
+compileKotlin {
+    kotlinOptions.jvmTarget = '1.8'
+}
+```
+
+```
+./gradlew run
+```
